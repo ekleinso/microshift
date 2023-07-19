@@ -1,0 +1,18 @@
+kind: Service
+apiVersion: v1
+metadata:
+  name: minio
+  namespace: minio
+spec:
+  ports:
+    - name: console
+      protocol: TCP
+      port: 80
+      targetPort: 9090
+    - name: api
+      protocol: TCP
+      port: 9000
+      targetPort: 9000
+  type: ClusterIP
+  selector:
+    name: minio
