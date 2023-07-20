@@ -11,7 +11,7 @@ spec:
   source:
     path: gitops/3-apps/plex
     repoURL: https://github.com/ekleinso/microshift.git
-    targetRevision: master
+    targetRevision: main
   syncPolicy:
     automated:
       prune: true

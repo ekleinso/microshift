@@ -11,7 +11,7 @@ spec:
   source:
     path: gitpos/2-services/metallb
     repoURL: https://github.com/ekleinso/microshift.git
-    targetRevision: master
+    targetRevision: main
   syncPolicy:
     automated:
       prune: true
