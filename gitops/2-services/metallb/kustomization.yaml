@@ -1,0 +1,6 @@
+namespace: metallb-system
+
+resources:
+  - crd.yaml
+  - crb.yaml
+  - ipaddresspool.yaml

@@ -6,3 +6,14 @@ Deploy using kustomize
 oc apply -k metrics-server
 ```
 
+## Jupyterlab
+Deploy using kustomize
+```shell
+oc apply -k jupyterlab
+```
+
+## Minio
+Deploy using kustomize
+```shell
+oc apply -k minio
+```
