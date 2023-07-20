@@ -9,7 +9,7 @@ spec:
     server: https://kubernetes.default.svc
   project: default
   source:
-    path: gitpos/2-services/metallb
+    path: gitops/2-services/metallb
     repoURL: https://github.com/ekleinso/microshift.git
     targetRevision: main
   syncPolicy:
